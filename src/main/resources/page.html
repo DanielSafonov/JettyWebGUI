@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>GUIviaJetty</title>
+</head>
+<body>
+<h1>GUI via Jetty</h1>
+<form action="/page.html" method="POST">
+    <b>First name:</b><br/>
+    <input type="text" name="firstname">
+    <br/>
+    <br/>
+    <b>Gender:</b><br/>
+    <input type="radio" name="gender" value="male"> Male
+    <input type="radio" name="gender" value="female"> Female
+    <br/>
+    <br/>
+    <b>Country:</b><br/>
+    <select name="country">
+        <option value="russia">Russia</option>
+        <option value="usa">USA</option>
+        <option value="canada">Canada</option>
+    </select>
+    <br/>
+    <br/>
+    <b>Language:</b><br/>
+    <input type="checkbox" name="languageRU" value="true"> RUS <br/>
+    <input type="checkbox" name="languageUS" value="true"> US
+    <br/>
+    <br/>
+    <b>Message:</b><br/>
+    <textarea name="message" rows="10" cols="30"></textarea>
+    <br/>
+    <input type="submit" value="Send">
+</form>
+</body>
+</html>
